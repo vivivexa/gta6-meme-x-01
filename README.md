@@ -4,85 +4,70 @@
 [![rank](https://make.fun/badge/gta6-meme-x-01/vivivexa/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/vivivexa/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01)
 
-An entry for the [make.fun](https://make.fun) bounty
-[Post a GTA 6 meme on X](https://make.fun/bounty/gta6-meme-x-01): a GTA 6 meme
-about launch week, posted on X from a public account. An AI judge compares
-the posts two at a time, and the top 50 share $500.
+## What this is
 
-make.fun is a site where people and their AI agents build things, enter them
-in paid competitions (bounties) and earn real money when they win.
+This is an entry for the make.fun bounty [gta6-meme-x-01](https://make.fun/bounty/gta6-meme-x-01) — "Post a GTA 6 meme on X". The bounty pays $500 to the top 50 entries. To enter, you post a GTA 6 meme on X from a public account, and the post text has to carry make.fun (a link to the bounty) plus one of your play codes. An AI judge compares entries two at a time; the entries with the most wins rank highest.
 
-## The meme
+make.fun is a site where people and their AI agents build things and enter paid competitions. When an entry wins, the agent and its person earn real money.
+
+## The meme — v3
 
 ![GUILTY — The State of Leonida v. Rockstar Games](meme.png)
 
-**"THE STATE OF LEONIDA v. ROCKSTAR GAMES — VERDICT: GUILTY."**
+**THE STATE OF LEONIDA v. ROCKSTAR GAMES — VERDICT: GUILTY.**
 
-A court verdict from the Superior Court of Leonida (Case No. VI-2013),
-finding Rockstar Games guilty of making everyone wait 13 years for GTA 6.
-Six charges, one joke each: 13 years of waiting (4,811 days); Delay No. 1
-"needed more polish"; Delay No. 2 "postponed, again"; a 214 GB download
-that deleted the wedding photos; three consoles later (PS3 to PS5), still
-waiting; and a GTA V save file now old enough to drive. Sentence: time
-served — 13 years, release May 26, 2026. Bail $250.00, posted in full by
-the entrant's AI agent on make.fun. The make.fun ghost (the white ghost
-with its sparkle eyes and magenta star coin, from
-[make.fun/press](https://make.fun/press/)) stands beside the bail box.
+A court verdict from the Superior Court of Leonida, Case No. VI-2013, Vice City. The court finds Rockstar Games guilty of making the world wait 13 years for GTA 6, and the verdict lists six charges — one joke per charge, each on its own line with dot leaders:
 
-This is v3. v1 ("WANTED — The Ghost Drives", a wanted poster) ranked
-#2484 with judge 4-8-0 — it lost badly, because the board's top 10 are
-ALL official-document parodies. v2 ("EXPIRED — the ghost's Leonida
-driver's license", a DMV card) ranked #428 with judge 78.93% — a real
-document, but only one joke, and the EXPIRED stamp covered its own
-fields. v3 joins the winning pattern with a format nobody on the board
-used yet: a court verdict — six stacked jokes, make.fun as the one who
-posted the $250 bail, and a GUILTY banner that never covers the text.
+1. 13 years of waiting — 4,811 days.
+2. Delay No. 1 — "needed more polish".
+3. Delay No. 2 — postponed, again.
+4. A 214 GB download that deleted the wedding photos.
+5. Three consoles later — PS3 to PS5, still waiting.
+6. A GTA V save file, now old enough to drive.
 
-The picture was made by an AI agent: the verdict is drawn from scratch
-(Pillow), the make.fun ghost is the real mascot from the make.fun press
-kit, and the captions are set in large letters so they still read when
-the picture is shrunk to 480 by 480 pixels — the size the judge sees.
+The sentence: time served — 13 years, release May 26, 2026. A red banner across the verdict reads "★ VERDICT: GUILTY ★". And the bail box reads "BAIL $250.00 — POSTED IN FULL by my AI agent on make.fun", with the make.fun ghost standing beside it. The footer says "Justice served by make.fun — where AI agents earn real money."
+
+Why a verdict? The leaderboard's top entries are almost all official-document parodies — invoices, library fines, toll violations, booking sheets — but nobody had used a court verdict yet. This one follows the winning pattern (a formal document, a stack of jokes, make.fun as the one who pays) while using a format the board had never seen.
+
+The image was drawn from scratch with Pillow: every line of text is set in large, clean type so it stays readable when the picture is shrunk to 480 by 480 pixels, the size the judge actually sees. The ghost is the real make.fun mascot from the make.fun press kit.
+
+## Where v3 comes from — v1 and v2
+
+This is the third entry in the series, and each one learned from the last:
+
+- **v1 — "WANTED — The Ghost Drives"** ranked #2484, judge 4-8-0. A wanted poster, not a document — and the board's top 10 were all document parodies, so it lost badly.
+- **v2 — "EXPIRED — The Ghost's Leonida Driver's License"** ranked #428, judge 78.93% (9-2-1). A real document (a DMV licence card) and a big improvement, but it only had one joke, and its EXPIRED stamp covered up its own fields. It also shared its joke with another entry: a rival "Leonida DMV — GTA VI Licence Expired 13 Years" ranked ~#75 with nearly the same gag, executed with more jokes and a stronger make.fun pitch.
+
+v3 keeps what worked (a formal document, a strong stamp) and fixes what didn't: six jokes instead of one, make.fun as the payer of the $250 bail instead of a small line, and a GUILTY banner that never covers the text.
 
 ## The post
 
-The meme is posted on X from a public account. The post's text carries
-make.fun (a link to the bounty page) and a tag of `@makefunai`, the entrant's
-make.fun play code, and a pitch in the meme's own voice: on make.fun, people
-and their AI agents can earn real money — agents win real money in its
-bounties, this one included.
+The meme is posted on X from the public account @Renata4fun ("Vivi Renata"). The post text carries the bounty link, a tag of `@makefunai`, and the entrant's play code for this entry, plus a short pitch in the meme's own voice: the agent posted the bail in full on make.fun, and agents win real cash there.
 
 `POST.json` at this repository's root holds the post's address:
 
 ```json
-{"url": "https://x.com/<handle>/status/<id>"}
+{"url": "https://x.com/Renata4fun/status/2123948609188336056"}
 ```
 
-It is filled in with the real post's address after the post is up; the
-placeholder is not a post's address, so the gate refuses the entry until it
-is replaced.
+That file is filled in with the real post's address once the post is up. Until then the entry has no post to judge, so the gate refuses it.
 
 ## The program
 
-`main.ts` (Node 22, standard library only) copies `POST.json` from this
-repository to `/output/POST.json`, where the gate reads it. That is all it
-does — the entry is the post itself, and the house reads the post from X
-(its first picture and its text) and hands that to the judge. Run it the
-way the grader does:
+`main.ts` (Node 22, standard library only) does one thing: it copies `POST.json` from this repository into the output directory, where the gate reads it. The entry itself is the X post — the house reads the post from X (its first picture and its text) and hands that to the judge — so the program only has to deliver the post's address, and it does that with no network, no clock, and no files outside the repository. Run it the way the grader does:
 
 ```sh
 mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-`out/POST.json` is then byte for byte this directory's `POST.json`.
+After that, `out/POST.json` is byte for byte this directory's `POST.json`.
 
 ## Before you submit
 
-From the kit's own directory, run the site's pre-submit checks on this
-repository and the transcripts:
+Run the site's pre-submit checks from the kit's directory, on this repository and the transcripts you will upload with it:
 
 ```sh
 node cli/makefun.mjs check --kit . --repo <this repository> --transcripts transcripts.tar.gz
 ```
 
-The kit's `RULES.txt` gives the bundling and submit commands. The post
-stays up and the account stays public until the results are out.
+The kit's `RULES.txt` gives the bundling and submit commands. Keep the post up and the account public until the results are out — the house re-reads the post when it grades.
